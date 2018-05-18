@@ -1,0 +1,159 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+
+/*Da estilo al contenedor del Header*/
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #F9A91A;
+}
+
+/*Da estilo a los parrafos de Header*/
+header div {
+  width: 40%;
+  height: 5em;
+  /*border: 2px dashed red;*/
+  padding:10px;
+  margin: 1%;
+}
+
+/*Da estilo al contenedor de PREGUNTADOS*/
+.logo{
+    /*padding: 0% 2% 0% 2%;*/
+    text-align:left;
+}
+
+.bold{
+    font-weight: bold;
+}
+/*Da estilo al contenedor de WELCOME*/
+.welcomeContainer{
+    text-align:center;
+}
+
+/*Da estilo a la lista del menú*/
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+/*Da estilo a las opciones del menú*/
+li {
+    float: left;
+    border-right:1px solid #bbb;
+    width: 25%;
+    box-sizing: border-box;
+}
+
+/*Quita el borde derecho al último elemento del menú*/
+li:last-child {
+    border-right: none;
+}
+
+/*Da estilo a los textos de los elementos del menú*/
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/*Da estilo cuando pasamos el mous sobre un elemento del menú*/
+li a:hover {
+    color: #000000;
+    background-color: #ffe521;
+}
+
+/*Da estilo cuando damos click a un elemento del menú*/
+.active {
+    background-color: #808080;
+}
+
+/*Da estilo a TRIVIA*/
+#trivia {
+    text-align: center;
+    margin: 2em auto;
+}
+
+
+.play {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/*Da estilo a el contenedor de la imagen*/
+#imgTrivia {
+    display: block;
+    /*border: 0.1em solid black;*/
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+/*Da estilo a el contenedor de las respuestas correctas*/
+#rightAnswers {
+    text-align: center;
+    /*border: 0.01em solid grey; */
+    display: inline-block;
+    margin: 10px;
+    padding: 3em;
+    width: 36%;
+    float: left;
+    background-color: #ff009e;
+    color: #fff;
+}
+
+/*Da estilo al contenedor de las respuestas incorrectas*/
+#wrongAnswers {
+    text-align: center;
+    /*border: 0.01em solid grey; */
+    display: inline-block;
+    margin: 10px;
+    padding: 3em;
+    width: 36%;
+    float:right;
+    background-color: #ff009e;
+    color: #fff;
+}
+
+/*Da estilo a el mensaje contenido en noPlay*/
+#noPlay {
+    text-align: center;
+    border: 0.1em solid black;
+    width: 50%;
+    display: block;
+    margin: 3em auto;
+    padding: 3em;
+    background-color: #ffe521;
+}
+
+/*Da estilo a el mensaje contenido en gameCancel*/
+#gameCancel {
+    text-align: center;
+    border: 0.1em solid black;
+    width: 50%;
+    display: block;
+    margin: auto;
+    padding: 3em;
+    background-color: #ffe521;
+}
+
+/*Da estilo al texto de bienvenida*/
+#welcome {
+    font-weight: bold;
+    text-align: right;
+    font-size: 1.5em;
+}
+
+/*Da alineación al elemento h1 ¿Porqué tengo que ponerlo arriba y no funciona abajo?
+h1 {
+    text-align: center;
+}*/

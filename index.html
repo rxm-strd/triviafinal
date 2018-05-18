@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+
+  <!-- Comienza el HEAD-->
+  <head>
+    <meta charset="utf-8">
+    <title>Trivia - Preadmisión</title>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+
+    <!--Vinculo a la hoja de estilos-->
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="shortcut icon" href="fv.ico">
+  </head>
+  <!-- Termina el HEAD-->
+
+    <!--Comienza el HEADER-->
+    <header>
+
+      <div class="logo">
+        <p class="bold">LABORATORIA</p>
+        <p>¡Selecciona la categoría e inicia el reto!</p>
+      </div>
+
+      <div class="welcomeContainer">
+        <p id="welcome"></p>
+      </div>
+
+    </header>
+    <!--Termina el HEADER-->
+
+    <!--Comienza el MENÚ de la página-->
+    <div>
+      <!--Elementos del MENÚ-->
+      <ul>
+        <li><a href="" class= "active">Laboratoria</a></li>
+        <!--ACTIVE sirve para que aparezca como seleccionada la opción de Tecnología-->
+        <li><a href="">HTML</a></li>
+        <li><a href="">Javascript</a></li>
+        <li><a href="">CSS</a></li>
+      </ul>
+    </div>
+    <!--Termina el MENÚ de la página-->
+
+    <!--Muestra el titulo TRIVIA-->
+    <div id="trivia">
+    <h1>TRIVIA</h1>
+    <p>Laboratoria Pre-Admisión 2018-1 <br> <br> Ve tus resultados abajo :D</p>
+    </div>
+
+
+    <div class="play">
+
+      <!--Muestra una imagen acompañando a las respuestas-->
+      <div id="imgTrivia"></div>
+
+      <!--Muestra las respuestas correctas-->
+      <div id= "rightAnswers"></div>
+      <!--Alerta antes de las respuestas-->
+      <div id= "ready"></div>
+
+      <!--Muestra las respuestas incorrectas-->
+      <div id= "wrongAnswers"></div>
+
+      <!--Cuando no quiere jugar el usuario-->
+      <div id="noPlay"></div>
+
+      <!--Es la opción por si cancela antes de meter su nombre-->
+      <div id="gameCancel"></div>
+
+    </div>
+
+    <!--Vinculo al JavaScript-->
+    <script type="text/javascript" src="app.js"></script>
+
+  </body>
+  <!--Termina el BODY-->
+</html>
